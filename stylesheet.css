@@ -20,6 +20,7 @@ input {
     border: .4vw solid black;
     font-size: 3vw;
     color: red;
+    padding-left: 1vw;
 }
 input::placeholder {
     opacity: .5;
@@ -38,6 +39,7 @@ button {
     font-weight: bold;
     border: .3vw solid darkblue;
     background-color:lightblue;
+    cursor: pointer;
 }
 .calculator {
     display: inline-block;
@@ -51,6 +53,7 @@ button {
         border-radius: 4vw;
         border: .6vw solid black;
         font-size: 5vw;
+        padding-left: 2vw;
     }
     input::placeholder {
         opacity: .5;
